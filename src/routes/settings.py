@@ -19,7 +19,7 @@ from ..schemas import (
 )
 from ..services import SettingsService
 
-router = APIRouter(prefix="/api/v1/settings", tags=["Settings"])
+router = APIRouter(prefix="/api/v1/user-preferences", tags=["User Preferences"])
 
 
 async def get_user_id(x_user_id: str = Header(None, alias="X-User-ID")) -> str:

@@ -1,4 +1,8 @@
-"""Settings service for business logic."""
+"""Settings service for business logic.
+
+Associated Frontend Files:
+  - web/app/src/pages/SettingsPage.tsx (main settings page)
+"""
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
